@@ -1,0 +1,37 @@
+
+<table>
+  <tr>
+    <td>
+      Please enter number 1
+    </td>
+    <td>
+      <input type="text" [(ngModel)]="num1" name="num1" >
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      Please enter number 2
+    </td>
+    <td>
+      <input type="text" [(ngModel)]="num2" name="num2" >
+    </td>
+  </tr>
+  <tr>
+    <td>
+      The result is:
+    </td>
+    <td>
+      <h2><b>{{response}}</b></h2>
+    </td>
+  </tr>
+
+</table>
+<p></p>
+<p></p>
+
+<button (click)="add()">ADD (+)</button>
+<button (click)="subtract()">SUBTRACT (-)</button>
+<button (click)="multiply()">MULTIPLY (*)</button>
+<button (click)="divide()">DIVIDE (/) </button>
+<h1>{{response}}</h1>
